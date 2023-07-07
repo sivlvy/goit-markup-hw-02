@@ -1,0 +1,184 @@
+body {
+   font-family: "Roboto", sans-serif;
+   list-style-type: none;
+
+}
+.header__nav {
+   list-style-type: none;
+}
+.header__logo {
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: 800;
+   color: #2E2F42;
+   line-height: 21px;
+   font-size: 18px;
+}
+.header__logo span {
+   color: #4D5AE5;
+}
+
+.header__categories {
+   list-style-type: none;
+
+}
+.header__category {
+   color: #2E2F42;
+   font-size: 16px;
+   letter-spacing: 0.32px;
+   font-weight: 500;
+   text-decoration: none;
+}
+.header__categories a {
+}
+.header__contacts {
+}
+.header__contact {
+   font-size: 16px;
+   font-style: normal;
+   list-style-type: none;
+}
+.header__contact a {
+   text-decoration: none;
+   color: #434455;
+   letter-spacing: 0.32px;
+}
+.main {
+   height: 600px;
+   background-color: #2E2F42;
+}
+.main__title {
+   color: #fff;
+   font-size: 56px;
+   font-weight: 700;
+   letter-spacing: 1.12px;
+   line-height: 60px;
+   text-align: center;
+   padding-top: 180px;
+}
+.main__button {
+   color: #fff;
+   background-color: #4D5AE5;
+   width: 169px;
+   height: 56px;
+   font-size: 16px;
+   font-weight: 500;
+   letter-spacing: 0.64px;
+   border-radius: 4px;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.list__items {
+   list-style-type: none;
+   letter-spacing: 0.24px;
+}
+.list__items h2 {
+   color: #2E2F42;
+   font-size: 26px;
+}
+
+.what__title {
+   font-size: 36px;
+   font-weight: 700;
+   letter-spacing: 0.72px;
+   text-transform: capitalize;
+   text-align: center;
+}
+.what li {
+   list-style-type: none;
+}
+.team {
+   background-color: #F4F4FD;
+}
+.team__title {
+   text-align: center;
+}
+.team li {
+   list-style-type: none;
+}
+.team__item {
+   width: 264px;
+   background-color: #fff;
+   text-align: center;
+}
+.footer {
+   height: 312px;
+   color: #fff;
+   background-color: #2E2F42;
+}
+
+.footer__logo {
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: 800;
+   color: #fff;
+   line-height: 21px;
+   font-size: 18px;
+}
+.footer__logo span {
+   color: #4D5AE5;
+}
+.footer p {
+   font-size: 16px;
+}
+
+/* Portfolio HMTL */
+
+
+.header_nav ul {
+   list-style-type: none;
+}
+
+.header__text {
+   text-decoration: none;
+   color: #2E2F42;
+   font-size: 16px;
+}
+address {
+   font-style: normal;
+}
+
+.header_contacts {
+   text-decoration: none;
+   color: #434455;
+   font-size: 16px;
+}
+.categories ul {
+   list-style-type: none;
+}
+
+.categories {
+
+}
+
+.categories__btn {
+   font-size: 16px;
+   color: #4D5AE5;
+   background-color: #F4F4FD;
+   text-align: center;
+   height: 48px;
+   border: none;
+   cursor: pointer
+}
+
+.categories__btn:hover {
+   background-color: #404BBF;
+   color: #ffffff;
+}
+.list ul {
+   list-style-type: none;
+}
+.list__item {
+   width: 360px;
+   border: 1px solid #E7E9FC;
+}
+.list h2 {
+   font-size: 20px;
+   line-height: 24px;
+}
+.list p {
+   font-size: 16px;
+}
+
+.footer p {
+   font-size: 16px;
+}
