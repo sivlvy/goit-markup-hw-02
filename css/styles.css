@@ -16,10 +16,10 @@ body {
 .header__nav {
    list-style-type: none;
 }
-.link__row a:hover {
+.link__rows a:hover {
    color: var(--ocean);
 }
-.link__row a:focus {
+.link__rows a:focus {
    color: var(--ocean);
 }
 .link {
@@ -44,7 +44,10 @@ body {
    font-style: normal;
 
 }
-.link__row {
+.list a {
+   color: var(--slate);
+}
+.link__rows {
    color: var(--navyblue);
    font-size: 16px;
    letter-spacing: 0.32px;
