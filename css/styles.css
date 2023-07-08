@@ -16,10 +16,13 @@ body {
 .header__nav {
    list-style-type: none;
 }
-.header__category a:hover {
-   color: var(--navyblue);
+.link__row a:hover {
+   color: var(--ocean);
 }
-.header__logo {
+.link__row a:focus {
+   color: var(--ocean);
+}
+.link {
    text-transform: uppercase;
    text-decoration: none;
    font-weight: 800;
@@ -27,9 +30,9 @@ body {
    line-height: 1.17;
    line-height: 0.03em;
    font-size: 18px;
-   font-family: "Railway", sans-serif;
+   font-family: "Raleway", sans-serif;
 }
-.header__logo span {
+.link span {
    color: var(--iris);
 }
 
@@ -37,7 +40,7 @@ body {
    list-style-type: none;
 
 }
-.header__category {
+.link__row {
    color: #2E2F42;
    font-size: 16px;
    letter-spacing: 0.32px;
@@ -46,20 +49,19 @@ body {
 }
 .header__categories a {
 }
-.header__contacts {
-}
-.header__contact {
+
+.list {
    font-size: 16px;
+   line-height: 1.5;
    font-style: normal;
    list-style-type: none;
 }
-.header__contact a {
+.list a {
    text-decoration: none;
    color: #434455;
    letter-spacing: 0.32px;
 }
 .main {
-   height: 600px;
    background-color: #2E2F42;
 }
 .main__title {
@@ -74,8 +76,6 @@ body {
    font-family: "Roboto", sans-serif;
    color: #fff;
    background-color: #4D5AE5;
-   width: 169px;
-   height: 56px;
    font-size: 16px;
    font-weight: 500;
    line-height: 1.5;
@@ -133,18 +133,16 @@ body {
    list-style-type: none;
 }
 .team__item {
-   width: 264px;
    background-color: #fff;
    text-align: center;
 }
 .footer {
-   height: 312px;
    color: #fff;
    background-color: #2E2F42;
 }
 
-.footer__logo {
-   font-family: "Railway", sans-serif;
+.footer__link {
+   font-family: "Raleway", sans-serif;
    text-transform: uppercase;
    text-decoration: none;
    font-weight: 800;
@@ -153,7 +151,7 @@ body {
    letter-spacing: 0.03em;
    font-size: 18px;
 }
-.footer__logo span {
+.footer__link span {
    color: var(--cloud);
 }
 
@@ -167,13 +165,14 @@ body {
 .header__categories a:hover {
    color: var(--navyblue);
 }
-.header__logo {
+.link {
    font-family: "Railway", sans-serif;
    line-height: 1.17;
    letter-spacing: 0.03em;
    color: var(--iris);
+   text-decoration: none;
 }
-.header__logo span {
+.link span {
    color: var(--navyblue);
 }
 .header_nav ul {
@@ -187,6 +186,11 @@ body {
    list-style-type: none;
    text-decoration: none;
    list-style:none;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--navyblue)
 }
 .list a:hover {
    color: var(--ocean);
@@ -205,6 +209,7 @@ body {
    font-weight: 500;
    line-height: 1.5;
    letter-spacing: 0.02em;
+   color: var(--navyblue);
 }
 .list__text span {
    color: var(--navyblue);
@@ -248,7 +253,6 @@ address a:focus {
    color: #4D5AE5;
    background-color: #F4F4FD;
    text-align: center;
-   height: 48px;
    border: none;
    cursor: pointer
 }
@@ -261,7 +265,6 @@ address a:focus {
    list-style-type: none;
 }
 .list__item {
-   width: 360px;
    border: 1px solid #E7E9FC;
 }
 .list h2 {

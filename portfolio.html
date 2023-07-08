@@ -12,27 +12,33 @@
 <body>
    <header class="header">
       <nav class="header_nav">
-         <a href="./portfolio.html" class="header__logo">Web<span>Studio</span></a>
+         <a href="./portfolio.html" class="link">Web<span>Studio</span></a>
          <ul class="list">
             <li class="list__block">
-               <a href="./index.html" class="list__text"><span>Studio</span></a>
+               <a href="./index.html" class="link__row"><span>Studio</span></a>
             </li>
             <li class="list__block">
-               <a href="./portfolio.html" class="list__text"><span>Portfolio</span></a>
+               <a href="./portfolio.html" class="link__row"><span>Portfolio</span></a>
             </li>
             <li class="list__block">
-               <a href="" class="list__text"><span>Contacts</span></a>
+               <a href="" class="link__row"><span>Contacts</span></a>
             </li>
          </ul>
       </nav>
-      <address>
-         <a class="list_link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-         <a class="list_link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+      <address class="header__contacts">
+         <ul class="list">
+            <li>
+               <a class="list_link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li>
+               <a class="list_link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            </li>
+         </ul>
       </address>
    </header>
    <main>
       <section class="categories">
-         <ul>
+         <h1 hidden>abc</h1>
+         <ul class="list">
             <li>
                <button class="categories__btn" type="button">All</button>
             </li>
@@ -48,10 +54,6 @@
             <li>
                <button class="categories__btn" type="button">Marketing</button>
             </li>
-         </ul>
-      </section>
-      <section class="row">
-         <ul>
             <li class="row__item">
                <img width="360" height="360" src="./images/portfolio/img1.jpg" alt="Banking App Interface Concept">
                <h2>Banking App Interface Concept</h2>
