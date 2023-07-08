@@ -1,21 +1,36 @@
+:root {
+   --cloud: #f4f4fd;
+   --cornflower: #e7e9fc;
+   --iris: #4d5ae5;
+   --navyblue: #2E2F42;
+   --ocean: #404BBF;
+   --slate: #434455;
+   --white: #FFFFFF;
+}
 body {
    font-family: "Roboto", sans-serif;
    list-style-type: none;
-
+   color: var(--slate);
+   background-color: var(--white);
 }
 .header__nav {
    list-style-type: none;
+}
+.header__category a:hover {
+   color: var(--navyblue);
 }
 .header__logo {
    text-transform: uppercase;
    text-decoration: none;
    font-weight: 800;
-   color: #2E2F42;
-   line-height: 21px;
+   color: var(--navyblue);
+   line-height: 1.17;
+   line-height: 0.03em;
    font-size: 18px;
+   font-family: "Railway", sans-serif;
 }
 .header__logo span {
-   color: #4D5AE5;
+   color: var(--iris);
 }
 
 .header__categories {
@@ -52,36 +67,53 @@ body {
    font-size: 56px;
    font-weight: 700;
    letter-spacing: 1.12px;
-   line-height: 60px;
+   line-height: 1.07;
    text-align: center;
-   padding-top: 180px;
 }
 .main__button {
+   font-family: "Roboto", sans-serif;
    color: #fff;
    background-color: #4D5AE5;
    width: 169px;
    height: 56px;
    font-size: 16px;
    font-weight: 500;
+   line-height: 1.5;
    letter-spacing: 0.64px;
-   border-radius: 4px;
-   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+   cursor: pointer;
+}
+.main__button:hover {
+   background-color: var(--ocean);
+}
+.main__button:focus {
+   background-color: var(--ocean);
 }
 .list__items {
    list-style-type: none;
    letter-spacing: 0.24px;
 }
-.list__items h2 {
-   color: #2E2F42;
-   font-size: 26px;
+
+.list__title {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: var(--navyblue);
+}
+.list__descr {
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--slate);
 }
 
 .what__title {
    font-size: 36px;
    font-weight: 700;
-   letter-spacing: 0.72px;
+   letter-spacing: 0.02em;
+   color: var(--navyblue);
    text-transform: capitalize;
    text-align: center;
+   line-height: 1.11;
 }
 .what li {
    list-style-type: none;
@@ -91,6 +123,11 @@ body {
 }
 .team__title {
    text-align: center;
+   font-size: 36px;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+   color: var(--navyblue);
 }
 .team li {
    list-style-type: none;
@@ -107,45 +144,101 @@ body {
 }
 
 .footer__logo {
+   font-family: "Railway", sans-serif;
    text-transform: uppercase;
    text-decoration: none;
    font-weight: 800;
-   color: #fff;
-   line-height: 21px;
+   color: var(--iris);
+   line-height: 1.17;
+   letter-spacing: 0.03em;
    font-size: 18px;
 }
 .footer__logo span {
-   color: #4D5AE5;
+   color: var(--cloud);
 }
-.footer p {
-   font-size: 16px;
+
+.footer__descr {
+   line-height: 1.5;
+   color: var(--cloud);
+   letter-spacing: 0.02em;
 }
 
 /* Portfolio HMTL */
-
-
+.header__categories a:hover {
+   color: var(--navyblue);
+}
+.header__logo {
+   font-family: "Railway", sans-serif;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   color: var(--iris);
+}
+.header__logo span {
+   color: var(--navyblue);
+}
 .header_nav ul {
-   list-style-type: none;
-}
-
-.header__text {
    text-decoration: none;
-   color: #2E2F42;
-   font-size: 16px;
 }
-address {
-   font-style: normal;
+.header_nav a {
+   text-decoration: none;
 }
 
-.header_contacts {
+.list {
+   list-style-type: none;
+   text-decoration: none;
+   list-style:none;
+}
+.list a:hover {
+   color: var(--ocean);
+}
+.list a:focus {
+   color: var(--ocean);
+}
+.list__block {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--navyblue);
+}
+.list__text {
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+}
+.list__text span {
+   color: var(--navyblue);
+}
+
+address {
+   font-style: none;
+}
+address a:hover {
+   color: var(--ocean);
+}
+address a:focus {
+   color: var(--ocean);
+}
+
+.list_link {
    text-decoration: none;
    color: #434455;
    font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+}
+.list__block a:hover {
+   color: var(--ocean);
 }
 .categories ul {
    list-style-type: none;
 }
-
+.header__categories a:hover {
+   color: var(--ocean);
+}
+.header__categories a:focus {
+   color: var(--ocean);
+}
 .categories {
 
 }
