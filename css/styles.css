@@ -47,7 +47,7 @@ body {
 .list a {
    color: var(--slate);
 }
-.link__rows {
+.link__rows.link {
    color: var(--navyblue);
    font-size: 16px;
    letter-spacing: 0.32px;
@@ -56,12 +56,13 @@ body {
 .header__categories a {
 }
 
-.list {
+.list.link {
    font-size: 16px;
    line-height: 1.5;
    font-style: normal;
    list-style-type: none;
    list-style: none; 
+   text-transform: none;
 }
 .list a {
    text-decoration: none;
@@ -318,7 +319,8 @@ address a:focus {
 .footer__link span {
    color: var(--cloud);
 }
-.link__rows.link {
+.rows.link {
+   text-transform: none;
    font-size: 16px;
    font-weight: 500;
    line-height: 1.5;
