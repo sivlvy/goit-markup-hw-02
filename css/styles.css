@@ -59,10 +59,16 @@ body {
 .list.link {
    font-size: 16px;
    line-height: 1.5;
+   letter-spacing: 0.02em;
    font-style: normal;
    list-style-type: none;
    list-style: none; 
    text-transform: none;
+}
+.list.link a {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
 }
 .list a {
    text-decoration: none;
