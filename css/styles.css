@@ -318,3 +318,9 @@ address a:focus {
 .footer__link span {
    color: var(--cloud);
 }
+.link__rows.link {
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.5;
+   color: var(--navyblue);
+}
