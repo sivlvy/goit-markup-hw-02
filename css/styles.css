@@ -57,6 +57,7 @@ body {
 }
 
 .list.link {
+   font-family: "Roboto", sans-serif;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
@@ -296,6 +297,8 @@ address a:focus {
    border: 1px solid #E7E9FC;
 }
 .link__title {
+   font-family: "Roboto", sans-serif;
+   text-transform: capitalize;
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
@@ -303,7 +306,10 @@ address a:focus {
    color: var(--navyblue);
 }
 .link__descr {
+   font-family: "Roboto", sans-serif;
    font-size: 16px;
+   font-weight: 400;
+   text-transform: none;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--slate);
@@ -326,6 +332,7 @@ address a:focus {
    color: var(--cloud);
 }
 .rows.link {
+   font-family: "Roboto", sans-serif;
    text-transform: none;
    font-size: 16px;
    font-weight: 500;
